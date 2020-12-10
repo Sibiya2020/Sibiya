@@ -1,0 +1,115 @@
+body{
+    margin: auto;
+}
+.imageContainer{
+    background-image: url('food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border : 2px solid rgb(192, 146, 146);
+}
+
+#logo{
+    text-align: center;
+    color:red;
+    font-size:80px;
+    background-color:white;
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin:auto;
+    margin-top:80px;
+    margin-bottom:80px ;
+}
+
+#firstheader{
+    text-align:center;
+    color:rgb(245, 126, 209);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:25px;
+}
+.location{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:80px;
+}
+
+.dropdown1{
+    height:30px;
+    width:90px;
+    font-family:'Times New Roman', Times, serif;
+    text-align:center;
+    font-weight:bold;
+}
+.dropdown2{
+    height: 30px;
+    width: 150px;
+    font-family:'Times New Roman',Times, serif;
+    text-align:center;
+    font-weight:bold;
+}
+.myfb{
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.myyt{
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.search{
+    margin-left:100px;
+    margin-top:50px;
+}
+.search1{
+margin-left: 300px;
+}
+.quicksearch{
+    text-align: left;
+    font-weight:bolder;
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(60, 60, 231);
+}
+.restaruant2{
+    color:rgb(255, 51, 0);
+    font-size: 20px;
+    font-weight:normal;
+    line-height: .0px;
+}
+.tilecontainer{
+    height: 130px;
+    width: 28%;
+    display: inline-block;
+    margin-right:3%;
+    margin-top: 10px;
+    margin-bottom:25px;
+    box-shadow: 0 3px 6px rgb(161, 158, 158);
+    transform: rotate(10deg)
+}
+.tilecomponent1{
+    width:46%;
+    float: left;
+}
+.tilecomponent2{
+    width:46%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sourceheading{
+    text-align: left;
+    color: #192f60;
+    font-size:23px;
+    font-weight: bold;
+}
+.sourcesubheading{
+    color: gray;
+    font-size:18px
+}
+.tilecontainer:hover{ 
+    transform: scale(1.2,1.2);
+    /*transform: rotate(10deg);*/
+}
+
